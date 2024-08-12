@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000607C92C66EAEE00563DE9 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000607C82C66EAEE00563DE9 /* HomeScreen.swift */; };
+		000607CB2C6A5B4A00563DE9 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000607CA2C6A5B4A00563DE9 /* SplashScreen.swift */; };
 		0036505E2C66CD3D00414B11 /* ExpenseSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036505D2C66CD3D00414B11 /* ExpenseSplitApp.swift */; };
 		003650602C66CD3D00414B11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036505F2C66CD3D00414B11 /* ContentView.swift */; };
 		003650622C66CD3F00414B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003650612C66CD3F00414B11 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000607C82C66EAEE00563DE9 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		000607CA2C6A5B4A00563DE9 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		0036505A2C66CD3D00414B11 /* ExpenseSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0036505D2C66CD3D00414B11 /* ExpenseSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSplitApp.swift; sourceTree = "<group>"; };
 		0036505F2C66CD3D00414B11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				0036505F2C66CD3D00414B11 /* ContentView.swift */,
 				003650612C66CD3F00414B11 /* Assets.xcassets */,
 				003650632C66CD3F00414B11 /* Preview Content */,
+				000607C82C66EAEE00563DE9 /* HomeScreen.swift */,
+				000607CA2C6A5B4A00563DE9 /* SplashScreen.swift */,
 			);
 			path = ExpenseSplit;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000607CB2C6A5B4A00563DE9 /* SplashScreen.swift in Sources */,
 				003650602C66CD3D00414B11 /* ContentView.swift in Sources */,
 				0036505E2C66CD3D00414B11 /* ExpenseSplitApp.swift in Sources */,
+				000607C92C66EAEE00563DE9 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
