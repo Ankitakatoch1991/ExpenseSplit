@@ -2,7 +2,7 @@
 //  ExpenseSplitApp.swift
 //  ExpenseSplit
 //
-//  Created by Ankita Katoch on 8/16/24.
+//  Created by Ankita Katoch on 8/9/24.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct ExpenseSplitApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
